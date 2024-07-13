@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSMarket</title>
+    <link rel="stylesheet" href="/css/join.css">
+    <link rel="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="login-wrapper">
+        <h1 id="NAME">GSMarket</h1>
+        <form method="post" action="https://www.youtube.com/watch?v=BMvqvnyGtGo" id="login-form">
+            <h2 id="nick-name">닉네임</h2>
+            <input id = "nickName" type="text" name="userName" placeholder="nickname" required
+            maxlength="15" 
+            oninvalid="this.setCustomValidity('사용할 닉네임을 입력하세요.')" />
+            <h2 id="user-email">이메일</h2>
+            <input type="email" name="user-email" placeholder="Enter your email" required 
+            oninvalid="this.setCustomValidity('이메일을 입력하세요.')" />
+            <button id="certification">인증</button>
+            <input type="submit" value="Next">
+        </form>
+    </div>
+    <script src="/js/join.js"></script>
+</body>
+</html> 
